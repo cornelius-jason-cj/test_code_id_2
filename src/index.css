@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-display-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card-status-active {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  background-color: green;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.card-status-inactive {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  background-color: red;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.card-order-display-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card-order{
+  background-color: aliceblue;
+  width: 75%;
+  height: 75%;
+  margin: 10px;
+  color: black;
+}
+
+.card-image {
+  width: 250px;
+  height: 200px;
+}
+
+.populate-button {
+  margin: 10px;
+}
+
+.addcard-button {
+  margin: 10px;
+}
